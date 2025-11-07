@@ -90,8 +90,8 @@ Response (200 OK):
 
 **Validation Rules**
 
-title → required
-description → optional
+title  -  required
+description -  optional
 
 Returns 400 Bad Request if required fields are missing.
 Returns 404 Not Found if the video ID doesn’t exist.
