@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const mongoUrl = 'mongodb+srv://nodejsapp_user:nodejsapp_user@nodejsapp.nwaf0yc.mongodb.net/?appName=nodejsapp';
+const mongoUrl = ''
 mongoose.connect(mongoUrl)
 .then(()=>console.log('connected MongoDB Atlas'))
 .catch(err=>console.error(err.message))
